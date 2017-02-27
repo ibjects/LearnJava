@@ -1,5 +1,8 @@
+import java.util.Scanner;
 
 public class Loops {
+
+	private static Scanner inputNumber;
 
 	public static void main(String[] args) {
 		// We saw this way of declaring a boolean in HelloWorld.java
@@ -29,8 +32,20 @@ public class Loops {
 			
 		}
 		
-		//for loop
+		inputNumber = new Scanner(System.in);
+		int value;
 		
+		do {
+			
+			System.out.println("Enter a number: ");
+			value  = inputNumber.nextInt();
+			
+		}while(value!=5);
+		
+		System.out.println("Got 5!");
+		
+		
+		//for loop
 		for(int i = 0; i < 5; i++)
 		{
 			System.out.println("Hello " + i);
