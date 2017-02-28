@@ -56,12 +56,12 @@ public class Arrays {
 		
 		int[][] grid = {
 				{4,3,2},
-				{5,4,3},
+				{54,8,9},
 				{68,67,22}
 		};
 		
 		//to print it
-		System.out.println(grid[0][1]);
+		//System.out.println(grid[0][1]);
 		
 		/*
 		 * The first [0] tells us which block to pick
@@ -73,7 +73,21 @@ public class Arrays {
 		//Strings in Multi-Dim Array
 		String[][] messages = new String[2][4];
 		
+		messages[0][1] = "Hello John";
 		
+		//Multi-dim array in for loop
+		//We need nested (for with a for) loop
+		
+		for(int row=0;row<grid.length;row++)
+		{
+			System.out.print("\n");
+			
+			for(int col=0;col<grid[row].length;col++)
+			{
+				System.out.print(grid[row][col] + "\t");
+				// /t is for tab space just like /n is for next line
+			}
+		}
 	}
 
 }
