@@ -51,8 +51,6 @@ public class StringBuilderAndFormatting {
 		//%f is used for floating point value
 		System.out.printf("\n%.2f\n",9.5);
 		//.2 means how much decimal places
-	
-	
 	}
 
 }
