@@ -3,7 +3,6 @@ package com.ibjects.interfaces;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Machine mac1 = new Machine();
 		mac1.start();
